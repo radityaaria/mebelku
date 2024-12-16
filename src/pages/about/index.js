@@ -12,7 +12,7 @@ const About = () => {
     <div className="min-h-screen p-6">
       <div className="flex flex-col md:flex-row space-y-6 md:space-y-0 md:space-x-6">
         <div className="flex-1 space-y-4 text-lg">
-          <h1 className="text-2xl font-bold mt-4 text-center md:text-left">
+          <h1 className="text-3xl font-bold mt-4 text-center md:text-left">
             Selamat Datang di Toko Mebel Mbah Kayyun
           </h1>
           <p>
@@ -43,12 +43,18 @@ const About = () => {
         </div>
       </div>
       <div className="mt-10 p-4 bg-gray-100 rounded-lg">
-        <h2 className="text-4xl mb-6 font-bold">Kontak Kami</h2>
-        <p className="">
+        <h2 className="text-3xl mb-6 font-bold">Penjelasan Objek Penelitian</h2>
+        <p>
+          Penelitian ini berfokus pada pengembangan platform digital berupa website Mebel Mbah Kayyun. Tujuan utamanya adalah untuk membantu usaha ini memperluas jangkauan pasar melalui media digital, serta memberikan kemudahan kepada pelanggan dalam simulasi penghitungan produk berdasarkan bahan baku.
+        </p>
+        <p>
+          Selain itu, penelitian ini juga akan mengkaji dampak digitalisasi terhadap operasional usaha kecil menengah (UKM) seperti Toko Mebel Mbah Kayyun, baik dari sisi peningkatan penjualan, efisiensi proses bisnis, hingga kepuasan pelanggan. Dengan memanfaatkan teknologi terkini dan pendekatan berbasis data, penelitian ini diharapkan dapat memberikan kontribusi nyata bagi perkembangan bisnis mebel tradisional di era digital, sekaligus mempertahankan nilai-nilai budaya yang terkandung dalam setiap produk mebel khas Mbah Kayyun.
+        </p>
+        <p className="mt-4">
           Jika Anda memiliki pertanyaan atau ingin melakukan pemesanan, silakan
           hubungi kami melalui informasi di bawah ini:
         </p>
-        <p className="mt-6">
+        <p className="mt-2">
           <strong>Nama Toko:</strong> Toko Mebel Mbah Kayyun
           <br />
           <strong>Alamat:</strong> Jl.Godean No. 123, Yogyakarta, Indonesia
