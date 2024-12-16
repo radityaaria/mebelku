@@ -15,11 +15,11 @@ const Navbar = () => {
             About
           </a>
         </li>
-        {/* <li>
-          <a href="/contact" className="hover:text-gray-400">
-            Contact
+        <li>
+          <a href="/pengembang" className="hover:text-gray-400">
+            Pengembang
           </a>
-        </li> */}
+        </li>
         <li>
           <a href="/petunjuk" className="hover:text-gray-400">
             Petunjuk Penggunaan
